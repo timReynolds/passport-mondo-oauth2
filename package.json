@@ -10,11 +10,7 @@
     "authentication",
     "identity"
   ],
-  "author": {
-    "name": "Tim Reynolds",
-    "email": "tim@timothyreynolds.co.uk",
-    "url": "http://timothyreynolds.co.uk"
-  },
+  "author": "Tim Reynolds <tim@timothyreynolds.co.uk> (http://timothyreynolds.co.uk)",
   "repository": {
     "type": "git",
     "url": "git://github.com/timReynolds/passport-mondo-oauth2.git"
@@ -43,6 +39,11 @@
     "node": ">= 0.4.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+    "test": "mocha --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "homepage": "https://github.com/timReynolds/passport-mondo-oauth2#readme",
+  "directories": {
+    "example": "example",
+    "test": "test"
   }
 }

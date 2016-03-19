@@ -98,10 +98,6 @@ $ make test-cov
 $ make view-cov
 ```
 
-## Support
-
-## Acknowledgement
-
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)

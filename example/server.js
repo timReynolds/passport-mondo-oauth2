@@ -13,8 +13,8 @@ passport.deserializeUser(function(user, done) {
 });
 
 passport.use(new MondoStrategy({
-    clientID: 'oauthclient_000096KFLL8u4OheF797L7',
-    clientSecret: 'IF5KVQDrcwIEaU2Ff/3VttN1eG4bo6WNUoCKEFNdEuYgdUXpQ9M1ERvFF/3RUXeJ6GnG8dE8u5/f9dvzyIOe',
+    clientID: MONDO_CLIENT_ID,
+    clientSecret: MONDO_CLIENT_SECRET,
     callbackURL: "http://127.0.0.1:3000/auth/mondo/callback"
   },
   function(accessToken, refreshToken, profile, done) {
