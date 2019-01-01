@@ -1,5 +1,7 @@
 # passport-mondo-oauth2
 
+*DEPRECATED: Monzo no longer support their API*
+
 [![Build](https://img.shields.io/travis/timReynolds/passport-mondo-oauth2.svg)](https://travis-ci.org/timReynolds/passport-mondo-oauth2)
 [![Coverage](https://img.shields.io/coveralls/timReynolds/passport-mondo-oauth2.svg)](https://coveralls.io/r/timReynolds/passport-mondo-oauth2)
 [![Dependencies](https://img.shields.io/david/timReynolds/passport-mondo-oauth2.svg)](https://david-dm.org/timReynolds/passport-mondo-oauth2)
